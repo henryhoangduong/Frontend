@@ -1,0 +1,19 @@
+#Producttable{
+    position: relative;
+
+    margin-left: 320px;
+}
+#card{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 320px;
+    margin-top: 60px;
+    margin-right: 60px;
+}
+#createproduct{
+    position: relative;
+    left: 185vh;
+    margin-bottom: 20px;
+}
