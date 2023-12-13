@@ -5,8 +5,8 @@ import useFetch from "../hook/useFetch";
 const ProductContext = createContext({});
 
 export const ProductContextProvider = ({ children }) => {
-  const { loading, error, productsList, setproductsList} = useFetch(
-    "http://127.0.0.1:8000/api/read/products"
+  const { loading, error, productsList, setproductsList } = useFetch(
+    "http://172.8.187.157:8000/api/read/products"
   );
 
   return (
